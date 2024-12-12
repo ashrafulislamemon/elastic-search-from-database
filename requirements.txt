@@ -1,0 +1,13 @@
+
+
+
+
+
+sudo nano elasticsearch.yml
+
+
+sudo systemctl status elasticsearch.service
+
+
+sudo systemctl start elasticsearch.service
+sudo systemctl restart elasticsearch
