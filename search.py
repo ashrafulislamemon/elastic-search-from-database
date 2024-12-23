@@ -129,7 +129,7 @@ response = es.search(index=INDEX_NAME, body={
         "bool": {
             "should": [
                 {"match_phrase": {"text": "sams"}},
-                {"match_phrase": {"text": "trump"}},
+                {"match_phrase": {"text": "bangladesh"}},
                 {"match_phrase": {"text": "sams"}}
             ],
             "minimum_should_match": 1  # At least one of these terms should match
